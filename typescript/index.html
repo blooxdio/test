@@ -13,13 +13,14 @@
     <main>
         <h2>Introduction to TypeScript</h2>
         <p>TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language.</p>
+        <p><a href="../index.html">Back to Home</a></p>
         <h3>Basic TypeScript Syntax</h3>
         <pre><code>
 function greeter(person: string) {
     return "Hello, " + person;
 }
 
-let user = "Jane User";
+let user = "User";
 
 document.body.textContent = greeter(user);
         </code></pre>
@@ -37,8 +38,5 @@ document.body.textContent = greeter(user);
         <pre><code>tsc greeter.ts</code></pre>
         <p>This will create a <code>greeter.js</code> file, which you can then include in your HTML file.</p>
     </main>
-    <footer>
-        <p><a href="../index.html">Back to Home</a></p>
-    </footer>
 </body>
 </html>
